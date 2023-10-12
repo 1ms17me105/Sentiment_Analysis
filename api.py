@@ -8,7 +8,7 @@ class SentimentFormat(BaseModel):
     text: str
 
 @app.get("/")
-def trail():
+def trial():
     return {"Title": "Hello World!!"}
 
 @app.post("/sentiment_analysis/")
