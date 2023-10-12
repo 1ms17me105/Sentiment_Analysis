@@ -1,12 +1,16 @@
 from fastapi import FastAPI
 from model import sentiment_analysis
+from pydantic import BaseModel
 
 app = FastAPI()
 
+class SentimentFormat(BaseModel):
+    text: str
+
 @app.get("/")
 def trail():
-    return {"Title": "Hello World!"}
+    return {"Title": "Hello World!!"}
 
-@app.get("/sentiment_analysis/{text}")
-def text_for_sentiment(text: str):
-    return sentiment_analysis(text)
+@app.post("/sentiment_analysis/")
+def text_for_sentiment(item: SentimentFormat):
+    return sentiment_analysis(item)
