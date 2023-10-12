@@ -6,9 +6,9 @@
 
 ## Highlights of the project:
 * ### Fine-Tuning transformer based model:
-  - I chose BERT and RoBERTa LLM models provided through Huggingface's🤗 `transformers` package to check pretuned accuracy on a large move review dataset
+  - I chose BERT and RoBERTa LLM models provided through Huggingface's🤗 `transformers` package to check pretuned accuracy on a large movie review dataset
   - Though RoBERTa provided a higher accuracy of 95% I chose to go with BERT (which provided a base pretrained accuracy of 88%) because it was 1/3rd the size of RoBERTa
   - BERT model was further finetuned using Full Parameter Tuning and Parameter Efficient Fine-Tuning (PEFT) method which improved the accuracy from 88% to 93%
 
 * ### Integrating a simple FastAPI endpoint to the model:
-  - 
+  - Added a simple API endpoint at ```bash localhost:8000/sentiment_analysis/``` 
