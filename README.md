@@ -16,3 +16,7 @@
 * ### Dockerizing the application:
   - This application has been dockerized 🐳 for faster and reliable deployment.
   - Fire up the docker desktop app and use command `docker compose up --build` in terminal to deploy the application.
+ 
+## Demo:
+
+![api](https://github.com/nihal-DS/Sentiment_Analysis/assets/120628216/b2f00293-1cdc-4a99-a64a-7b77c4c50b2b)
