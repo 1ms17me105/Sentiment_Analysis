@@ -3,3 +3,4 @@ movie_data.csv
 .venv
 __pycache__
 error.txt
+DistilBERT__Finetuned
