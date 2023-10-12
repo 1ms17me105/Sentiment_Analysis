@@ -11,6 +11,6 @@
   - BERT model was further finetuned using Full Parameter Tuning and Parameter Efficient Fine-Tuning (PEFT) method which improved the accuracy from 88% to 93%.
 
 * ### Integrating a simple FastAPI endpoint to the model:
-  - Added a simple API endpoint at ```localhost:8000/sentiment_analysis/``` which return [ ] POSITIVE or [ ] NEGATIVE label and its confidence score.
+  - Added a simple API endpoint at ```localhost:8000/sentiment_analysis/``` which return POSITIVE :+1: or NEGATIVE :-1: label and its confidence score.
  
 * ### Dockerising 
