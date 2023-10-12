@@ -13,4 +13,6 @@
 * ### Integrating a simple FastAPI endpoint to the model:
   - Added a simple API endpoint at ```localhost:8000/sentiment_analysis/``` which return POSITIVE :+1: or NEGATIVE :-1: label and its confidence score.
  
-* ### Dockerising 
+* ### Dockerizing the application:
+  - This application has been dockerized 🐳 for faster and reliable deployment.
+  - Fire up the docker desktop app and use command `docker compose up --build` in terminal to deploy the application.
